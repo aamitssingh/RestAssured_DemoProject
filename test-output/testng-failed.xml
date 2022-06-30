@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="library_basic_Demo_Script_with_DyanmicJson.Add_Get_Basic_Test">
+        <methods>
+          <include name="getBookById"/>
+          <include name="addBook_Request" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- library_basic_Demo_Script_with_DyanmicJson.Add_Get_Basic_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
